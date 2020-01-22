@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid grey;
+  border-radius: 5px;
+  max-width: 500px;
+  font-family: sans-serif;
+}
+
+.main-title {
+  background-color: steelblue;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  margin-top: 0px;
+}
+
+.profile-picture {
+  border-radius: 75%;
+  max-width: 75px;
+  margin-top: 15px;
+}
+
+.create-post-box {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px;
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.create-post-box h4 {
+  margin: unset;
+  padding: 10px;
+}
+
+.create-post-box .text-box {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding:10px;
+}
+
+.create-post-box .post-box {
+  padding: 10px;
+  text-align: right;
+}
+
+.create-post-box .text-box input {
+  width: 90%;
+  font-size: 15px;
+  height: 20px;
+}
+
+.create-post-box .post-box .post-box-button {
+  background-color: steelblue;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  border: unset;
+  padding: 5px 15px 5px 15px;
+}
+
+.timeline {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.timeline .timeline-post {
+  display: flex;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.timeline .timeline-post .post-text-container {
+  padding-left: 15px;
+}
+
+.timeline .timeline-post .post-text-container .post-text-bubble {
+  border: darkgrey solid 1px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+}
